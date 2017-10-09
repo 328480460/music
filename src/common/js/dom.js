@@ -21,6 +21,7 @@ export function getData(el, name, val) {
   return el.getAttribute(prefix + name)
 }
 
+// 自定义autofix
 let elementStyle = document.createElement('div').style
 
 let vendor = (() => {
