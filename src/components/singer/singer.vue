@@ -27,10 +27,7 @@
     },
     methods: {
       selectSinger(singer) {
-<<<<<<< HEAD
-=======
         this.setSinger(singer);
->>>>>>> company
         this.$router.push({path:`/singer/${singer.id}`})
       },
       _getSingerList() {
